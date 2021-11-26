@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="css/style.css"/>
+		<title>OpenChat - Bate-Papo</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1>OpenChat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Nome de usuário</label>
+						<input type="text" name="username" id="username" placeholder="Insira seu nome" required />
+					</div>
+					<div class="form-control">
+						<label for="room">Salas</label>
+						<select name="room" id="room">
+							<option value="Sala1">Brasil</option>
+							<option value="Sala2">Global</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Entrar no chat</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
