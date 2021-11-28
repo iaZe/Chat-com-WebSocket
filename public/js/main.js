@@ -17,7 +17,6 @@ const message = [];
 
 socket.on('message', message => {
     outputMessage(message);
-    console.log(message.text);
 });
 
 chatForm.addEventListener('submit', (e) => {
